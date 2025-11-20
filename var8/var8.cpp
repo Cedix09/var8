@@ -5,14 +5,19 @@
 using namespace std;
 
 
+void DistanceCalculator::printDistanceInfo(double x1, double y1, double x2, double y2, double distance)
+{
+    cout << "Точка 1: (" << x1 << ", " << y1 << ")" << endl;
+    cout << "Точка 2: (" << x2 << ", " << y2 << ")" << endl;
+    cout << "Расстояние: " << distance << endl;
+}
+
 double DistanceCalculator::calculateDistance(double x1, double y1, double x2, double y2) {
     double dx = x2 - x1;
     double dy = y2 - y1;
     double distance = sqrt(dx * dx + dy * dy);
 
-    cout << "Точка 1: (" << x1 << ", " << y1 << ")" << endl;
-    cout << "Точка 2: (" << x2 << ", " << y2 << ")" << endl;
-    cout << "Расстояние: " << distance << endl;
+    printDistanceInfo(x1, y1, x2, y2, distance);
 
     return distance;
 }
