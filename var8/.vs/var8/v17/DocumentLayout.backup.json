@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\yura0\\Desktop\\PW23_Variant_8\\var8\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{14EAB5AF-C27E-4732-889A-21402D5FA7CD}|var8.vcxproj|C:\\Users\\yura0\\Desktop\\PW23_Variant_8\\var8\\var8.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{14EAB5AF-C27E-4732-889A-21402D5FA7CD}|var8.vcxproj|solutionrelative:var8.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "var8.cpp",
+              "DocumentMoniker": "C:\\Users\\yura0\\Desktop\\PW23_Variant_8\\var8\\var8.cpp",
+              "RelativeDocumentMoniker": "var8.cpp",
+              "ToolTip": "C:\\Users\\yura0\\Desktop\\PW23_Variant_8\\var8\\var8.cpp",
+              "RelativeToolTip": "var8.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-11-20T19:28:39.243Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

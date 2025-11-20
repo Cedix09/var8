@@ -1,1 +1,6 @@
-*.exe*.obj*.pdb.vs/Debug/Release/x64/
+*.exe
+*.obj
+*.pdb.vs/
+Debug/
+Release/
+x64/
