@@ -12,9 +12,19 @@ void DistanceCalculator::printDistanceInfo(double x1, double y1, double x2, doub
     cout << "Расстояние: " << distance << endl;
 }
 
+double DistanceCalculator::getDeltaX(double x2, double x1)
+{
+    return x2 - x1;
+}
+
+double DistanceCalculator::getDeltaY(double y2, double y1)
+{
+    return y2 - y1;
+}
+
 double DistanceCalculator::calculateDistance(double x1, double y1, double x2, double y2) {
-    double dx = x2 - x1;
-    double dy = y2 - y1;
+    double dx = getDeltaX(x2, x1);
+    double dy = getDeltaY(y2, y1);
     double distance = sqrt(dx * dx + dy * dy);
 
     printDistanceInfo(x1, y1, x2, y2, distance);
