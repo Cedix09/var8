@@ -1,31 +1,31 @@
 ﻿#include <iostream>
 #include <cmath>
+#include "var8.h"
+
 using namespace std;
 
-class DistanceCalculator {
-public:
-    double calculateDistance(double x1, double y1, double x2, double y2) {
-        double dx = x2 - x1;
-        double dy = y2 - y1;
-        double distance = sqrt(dx * dx + dy * dy);
 
-        cout << "Точка 1: (" << x1 << ", " << y1 << ")" << endl;
-        cout << "Точка 2: (" << x2 << ", " << y2 << ")" << endl;
-        cout << "Расстояние: " << distance << endl;
+double DistanceCalculator::calculateDistance(double x1, double y1, double x2, double y2) {
+    double dx = x2 - x1;
+    double dy = y2 - y1;
+    double distance = sqrt(dx * dx + dy * dy);
 
-        return distance;
-    }
+    cout << "Точка 1: (" << x1 << ", " << y1 << ")" << endl;
+    cout << "Точка 2: (" << x2 << ", " << y2 << ")" << endl;
+    cout << "Расстояние: " << distance << endl;
 
-    double calculateManhattanDistance(double x1, double y1, double x2, double y2) {
-        double dx = abs(x2 - x1);
-        double dy = abs(y2 - y1);
-        double distance = dx + dy;
+    return distance;
+}
 
-        cout << "Манхэттенское расстояние: " << distance << endl;
+double DistanceCalculator::calculateManhattanDistance(double x1, double y1, double x2, double y2) {
+    double dx = abs(x2 - x1);
+    double dy = abs(y2 - y1);
+    double distance = dx + dy;
 
-        return distance;
-    }
-};
+    cout << "Манхэттенское расстояние: " << distance << endl;
+
+    return distance;
+}
 
 int main() {
     setlocale(LC_ALL, "Russian");
